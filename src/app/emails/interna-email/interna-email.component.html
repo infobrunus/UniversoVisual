@@ -1,0 +1,9 @@
+<div class="thumbs flex row">
+	<div class="col-3" *ngFor="let link of selectedEmail.linkEmail" ><img [src]="link"></div>
+</div>
+
+<div class="buttons flex">
+	<button type="button" class="slider-btn flex" (click)="saveEmail()">
+		<img src="assets/triangle-green.png">CLIQUE PARA BAIXAR
+	</button>
+</div>

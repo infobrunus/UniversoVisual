@@ -1,0 +1,18 @@
+<div class="container-bg flex pdf">
+	<pdf-viewer [src]="pdfSrc" 
+	[render-text]="true"
+	[original-size]="false"
+	style="
+	display: flex;
+	width: 100%;
+	max-height: 400px;
+	max-width: 1000px;
+	"
+	>
+</pdf-viewer>
+</div>
+<div class="buttons flex">
+	<button type="button" class="slider-btn flex" (click)="saveDica()">
+		<img src="assets/triangle-green.png">CLIQUE PARA BAIXAR
+	</button>
+</div>

@@ -1,0 +1,19 @@
+<div class="left-panel flex flex-c fade-in">
+	<div class="panel-title">DICAS</div>
+	<div class="panel-info">
+		<span>Dicas de como usar o</span>
+		<span>universo visual 2018</span>
+	</div>
+	<div class="panel-list">
+		<div class="panel-margin" [appSlimScroll]="slimScrollOptions">
+			<div [ngClass]="{'selected': selectedDicas == dica}" *ngFor="let dica of dicas" (click)="getDica(dica)">{{dica.nome}} </div>
+		</div>
+	</div>
+</div>
+
+<div class="right-panel flex flex-c fade-in">
+	<app-interna-dicas [selectedDicas]=selectedDicas></app-interna-dicas>
+</div>
+
+
+

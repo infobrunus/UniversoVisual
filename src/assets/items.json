@@ -1,0 +1,39 @@
+{
+	"items": [
+		{
+			"id": 1,
+			"nome": "CORES",
+			"key": "cores",
+			"linkItem": "assets/items/cores/cores.pdf",
+			"linkDownload": "assets/items/cores/cores.pptx"
+		},
+		{
+			"id": 2,
+			"nome": "FONTES",
+			"key": "fontes",
+			"linkItem": "assets/items/fontes/fontes.pdf",
+			"linkDownload": "assets/items/fontes/fontes.pptx"
+		},
+		{
+			"id": 3,
+			"nome": "ÍCONES",
+			"key": "icones",
+			"linkItem": "assets/items/icones/icones.pdf",
+			"linkDownload": "assets/items/icones/icones.pptx"
+		},
+		{
+			"id": 4,
+			"nome": "OBJETOS",
+			"key": "objetos",
+			"linkItem": "assets/items/objetos/objetos.pdf",
+			"linkDownload": "assets/items/objetos/objetos.pptx"
+		},
+		{
+			"id": 5,
+			"nome": "GRÁFICOS",
+			"key": "graficos",
+			"linkItem": "assets/items/graficos/graficos.pdf",
+			"linkDownload": "assets/items/graficos/graficos.pptx"
+		}
+	]
+}

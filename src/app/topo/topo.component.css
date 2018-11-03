@@ -1,0 +1,50 @@
+.topo {
+	background-color: #393834;
+	border-bottom: solid #000 10px;
+	background-repeat: no-repeat;
+	background-size: right;
+}
+
+a {
+	color: #ffffff;
+}
+
+.topo-bg {
+	background-image: url("../../assets/topo-bg.png");
+	background-size: cover;
+	width: 20%;
+}
+
+.links {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	height: 65px;
+	width: 80%;
+	font-family: Globotipo Condensada Black;
+}
+
+.links a {
+	text-decoration: none;
+}
+
+.links img {
+	width: 60%;
+}
+
+.active, .links a:hover {
+	color: #0de38f;
+}
+
+.border-r {
+	border-right: solid #ed1263 3.5px;
+	padding-left: 2%;
+}
+
+.border-l {
+	border-left: solid #ed1263 3.5px;
+	padding-right: 2%;
+}
+
+

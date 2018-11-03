@@ -1,0 +1,66 @@
+{
+	"emails": [
+		{
+			"id": 1,
+			"nome": "ESTILO 02",
+			"key": "emails2",
+			"linkEmail": ["assets/emails/estilo02/Slide1.PNG",
+			 "assets/emails/estilo02/Slide2.PNG", 
+			 "assets/emails/estilo02/Slide3.PNG",
+			 "assets/emails/estilo02/Slide4.PNG",
+			 "assets/emails/estilo02/Slide5.PNG",
+			 "assets/emails/estilo02/Slide6.PNG",
+			 "assets/emails/estilo02/Slide7.PNG"],
+			"linkDownload": "assets/emails/estilo02/HEADER.pptx"
+		},
+		{
+			"id": 2,
+			"nome": "ESTILO 03",
+			"key": "emails3",
+			"linkEmail": ["assets/emails/estilo03/Slide1.PNG",
+			 "assets/emails/estilo03/Slide2.PNG", 
+			 "assets/emails/estilo03/Slide3.PNG"],
+			"linkDownload": "assets/emails/estilo03/HEADER.pptx"
+		},
+		{
+			"id": 3,
+			"nome": "ESTILO 04",
+			"key": "emails4",
+			"linkEmail": ["assets/emails/estilo04/Slide1.JPG",
+			 "assets/emails/estilo04/Slide2.JPG", 
+			 "assets/emails/estilo04/Slide3.JPG"],
+			"linkDownload": "assets/emails/estilo04/HEADER.pptx"
+		},
+		{
+			"id": 4,
+			"nome": "ESTILO 05",
+			"key": "emails5",
+			"linkEmail": ["assets/emails/estilo05/Slide1.PNG",
+			 "assets/emails/estilo02/Slide5.PNG", 
+			 "assets/emails/estilo02/Slide5.PNG",
+			 "assets/emails/estilo02/Slide5.PNG",
+			 "assets/emails/estilo02/Slide5.PNG",
+			 "assets/emails/estilo02/Slide5.PNG",
+			 "assets/emails/estilo02/Slide5.PNG"],
+			"linkDownload": "assets/emails/estilo05/HEADER.pptx"
+		},
+		{
+			"id": 5,
+			"nome": "ESTILO 06",
+			"key": "emails6",
+			"linkEmail": ["assets/emails/estilo06/Slide1.PNG",
+			 "assets/emails/estilo06/Slide2.PNG", 
+			 "assets/emails/estilo06/Slide3.PNG"],
+			"linkDownload": "assets/emails/estilo06/HEADER.pptx"
+		},
+		{
+			"id": 6,
+			"nome": "ESTILO 07",
+			"key": "emails7",
+			"linkEmail": ["assets/emails/estilo07/Slide1.PNG",
+			 "assets/emails/estilo07/Slide2.PNG", 
+			 "assets/emails/estilo07/Slide3.PNG"],
+			"linkDownload": "assets/emails/estilo07/HEADER.pptx"
+		}
+	]
+}

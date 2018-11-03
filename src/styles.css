@@ -1,0 +1,116 @@
+/* Importação de Fontes */
+
+body {
+	font-size: 16px;
+}
+
+.general-bg {
+	background-color: #393834;
+	height: auto;
+	padding: 1.5%;
+}
+
+.container-bg {
+	background-color: #2c2b28;
+	height: 82.5vh;
+}
+
+.left-panel {
+	overflow: auto;
+	width: 30%;
+	justify-content: flex-start;
+	align-items: flex-end;
+	padding: 2%;
+}
+
+.right-panel {
+	width: 70%;
+}
+
+.panel-title {
+	text-align: right;
+	margin-top: 15%;
+	font-size: 2.313em;
+	color: #fff;
+	font-family: Globotipo Condensada Black;
+}
+
+.panel-info {
+	color: #fff;
+	background-color: #ed1263;
+	padding: 0 10px;
+	font-family: Globotipo Texto;
+	font-style: italic;
+}
+
+.panel-list {
+	margin-top: 15%;
+	color: #fff;
+	font-family: Globotipo Condensada Black;
+	width: 80%;
+	text-align: right;
+}
+
+.panel-list div {
+	border-bottom: solid 2px #6c6b69;
+}
+
+.panel-title, .panel-info, .panel-list {
+	margin-right: 5%
+}
+
+.fade-in {
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 0.3s;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.flex{
+	display: flex;
+}
+
+.flex-c{
+	flex-direction: column;
+}
+
+@media (max-width: 320px) {
+	body {
+		font-size: 7px;
+	}
+}
+
+@media (min-width: 565px) and (max-width: 700px) {
+	body {
+		font-size: 12px;
+	}
+}
+
+@media (min-width: 699px) and (max-width: 929px) {
+	body {
+		font-size: 15px;
+	}
+}
+
+
+@media (min-width: 930px) {
+	body {
+		font-size: 20px;
+	}
+}
+
+@media (min-width: 1200px) {
+	body {
+		font-size: 20px;
+	}
+}

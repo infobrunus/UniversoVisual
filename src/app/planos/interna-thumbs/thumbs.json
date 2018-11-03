@@ -1,0 +1,25 @@
+{
+	"thumbs": [
+		{
+			"id": 1,
+			"nome": "template-basico",
+			"linkThumb": ["link1", "link2", "link3","link4","link5","link6",
+				"link7","link8","link9","link10","link11","link12"],
+			"linkDownload": "path"
+		},
+		{
+			"id": 2,
+			"nome": "estilo-1",
+			"linkThumb": ["link1", "link2", "link3","link4","link5","link6",
+				"link7","link8","link9","link10","link11","link12"],
+			"linkDownload": "path"
+		},
+		{
+			"id": 3,
+			"nome": "estilo-2",
+			"linkThumb": ["link1", "link2", "link3","link4","link5","link6",
+				"link7","link8","link9","link10","link11","link12"],
+			"linkDownload": "path"
+		}
+	]
+}

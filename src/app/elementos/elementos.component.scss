@@ -1,0 +1,73 @@
+ :host /deep/  {
+ 	display: flex;
+ }
+
+ .active {
+ 	border: solid #0de38f 2px;
+ }
+
+ :host /deep/ {
+	display: flex;
+	width: 100%;
+}
+
+/deep/ .pdfViewer .page {
+	width: 816px !important;
+}
+
+/deep/ [_nghost-c6] .pdfViewer .canvasWrapper {
+	width: 100% !important;
+	overflow-x: hidden !important; 
+}
+
+/deep/ .pdfViewer .page {
+	width: 100%;
+	overflow-x: hidden !important; 
+}
+
+:host /deep/ div.pdfViewer.page { 
+	width: 100% !important;
+	overflow-x: hidden !important; 
+}
+
+:host /deep/ .ng2-pdf-viewer-container[_ngcontent-c5] {
+	max-height: 400px;
+	overflow-x: hidden !important; 
+}
+
+:host /deep/ .ng2-pdf-viewer-container {
+	max-height: 400px;
+	max-width: 910px;
+	overflow-x: hidden !important; 
+}
+
+
+:host /deep/ .page {
+	width: 847px;
+	overflow-x: hidden !important; 
+}
+
+:host /deep/ [_nghost-c6] .pdfViewer .page canvas {
+	width: 100% !important;
+}
+
+
+.panel-info {
+ 	display: flex;
+ 	flex-direction: column;
+ 	background-color: unset;
+ 	padding: 0 0;
+ 	align-items: flex-end;
+ }
+
+ .panel-info span {
+ 	width: 100%;
+ 	padding: 0px 10px 0px 15px;
+ 	background-color: #ed1263;
+ }
+
+ .panel-info span:first-child {
+ 	margin-bottom: 2.5%;
+ 	text-align: right;
+ 	width: 60%;
+ }

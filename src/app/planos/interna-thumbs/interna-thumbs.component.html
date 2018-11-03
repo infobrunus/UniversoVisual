@@ -1,0 +1,9 @@
+<div class="thumbs flex row scrollthumb" [appSlimScroll]="slimScrollOptions">
+	<div class="col-3" *ngFor="let link of selectedThumb.linkThumb" ><img [src]="link"></div>
+</div>
+
+<div class="buttons flex">
+	<button type="button" class="slider-btn flex" (click)="saveThumb()">
+		<img src="assets/triangle-green.png">CLIQUE PARA BAIXAR
+	</button>
+</div>

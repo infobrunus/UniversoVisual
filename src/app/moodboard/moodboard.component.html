@@ -1,0 +1,29 @@
+<div class="left-panel flex flex-c fade-in">
+	<div class="panel-title">MOODBOARD</div>
+	<div class="panel-list">
+		<div class="panel-margin" [appSlimScroll]="slimScrollOptions">
+			<div [ngClass]="{'selected': selectedMood.nome == mood.nome}" *ngFor="let mood of moods" (click)="getMood(mood)">{{mood.nome}} </div>
+		</div>
+	</div>
+</div>
+
+<div class="right-panel flex flex-c fade-in">
+	<div class="container-bg flex pdf">
+		<pdf-viewer [src]="pdfSrc" 
+		[render-text]="true"
+		[original-size]="false"
+		style="
+		display: flex;
+		width: 100%;
+		max-height: 400px;
+		max-width: 1000px;
+		"
+		>
+	</pdf-viewer>
+	</div>
+	<div class="buttons flex">
+		<button type="button" class="slider-btn flex" (click)="saveMood()">
+			<img src="assets/triangle-green.png">CLIQUE PARA BAIXAR
+		</button>
+	</div>
+</div>

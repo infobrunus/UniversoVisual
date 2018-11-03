@@ -1,0 +1,153 @@
+ :host /deep/  {
+ 	display: flex;
+ }
+
+ :host /deep/ .cal-month-view .cal-day-cell:not(:last-child) {
+ 	border: none;
+ }
+
+ :host /deep/ .cal-month-view .cal-day-number {
+ 	font-size: 1.2em;
+ 	font-weight: 0;
+ 	opacity: 1;
+ 	margin-top: 0;
+ 	margin-right: 0;
+ 	float: none;
+ 	margin-bottom: 0;
+ 	color: #e6e6e6;
+ 	font-family: Globotipo Texto
+ }
+
+ :host /deep/ .cal-month-view .cal-day-cell.cal-weekend .cal-day-number {
+ 	color: #e6e6e6;
+ }
+
+ :host /deep/ .cal-month-view .cal-cell {
+ 	color: #fff;
+   font-family: Globotipo Texto Black;
+ }
+
+ :host /deep/ .cal-month-view .cal-header .cal-cell:hover {
+ 	background-color: transparent;
+ }
+
+ :host /deep/ .cal-month-view .cal-cell-top {
+ 	width: 20px;
+ 	height: 20px;
+ }
+
+ :host /deep/ .cal-day-number:hover {
+ 	cursor: pointer;
+ }
+
+ :host /deep/ .cal-month-view .cal-day-cell {
+	text-align: right;
+ }
+
+ :host /deep/ .cal-month-view .cal-day-cell:hover {
+ 	background-color: transparent;
+ }
+
+ :host /deep/ .cal-month-view .cal-day-cell.cal-out-month .cal-day-number {
+ 	display: none;
+ }
+
+ :host /deep/ .cal-month-view .cal-days .cal-cell-row, :host /deep/ .call-days{
+ 	border: none;
+ }
+
+ :host /deep/ .cal-month-view .cal-day-cell.cal-today .cal-day-number {
+ 	font-size: 1.2em;
+ }
+
+ :host /deep/ .cal-month-view .cal-days {
+ 	border: none;
+ }
+
+ :host /deep/ .call-cell-row {
+ 	width: 270px;
+ }
+
+ :host /deep/ .cal-cell-row:hover {
+ 	background-color: transparent;
+ }
+
+ :host /deep/ .cal-month-view .cal-day-cell.cal-today {
+   background-color: transparent;
+   span {
+    color: #0de38f;
+   }
+ }
+
+ :host /deep/ .cal-day-number {
+ 	color: #000;
+ }
+
+ :host /deep/ .cal-month-view .cal-day-cell {
+ 	width: 10px;
+ 	height: 10px;
+ 	min-height: 35px;
+ }
+
+ :host /deep/ .cal-month-view .cal-days .cal-cell-row, [_nghost-c4] .call-days {
+ 	width: 270px
+ }
+
+ :host /deep/ .cal-month-view .cal-cell-row {
+ 	width: 270px;
+ }
+
+ .styled-select {
+	background: url("../../assets/select.png") 11% 50% no-repeat transparent;
+    background-color: #2c2b28;
+    color: #fff;
+    font-family: Globotipo Texto;
+    border: solid #ed1263;
+    padding-left: 0%;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	padding: 0px 10px 0px 38px;
+ }
+
+
+ select.decorated option:hover {
+    box-shadow: 0 0 10px 100px #212529 inset;
+}
+
+ .styled-select:focus{outline: none}
+
+ .mural-titulo {
+ 	font-family: Globotipo Texto Bold;
+ 	color: #ffffff;
+ 	font-size: 1.063em;
+ 	margin-bottom: 2%;
+ }
+
+ .mural-texto {
+ 	font-family: Globotipo Texto Regular Italic;
+ 	color: #eaeae9;
+ 	font-size: 1em;
+ }
+
+ .left-panel {
+ 	overflow: hidden;
+ }
+
+ .right-panel {
+ 	padding: 7%;
+ }
+
+ :host /deep/ .cal-month-view .cal-day-cell {
+
+  &.hasSomething {
+    border-bottom: solid #0de38f;
+  }
+
+  &.clickedDay {
+    background-color: #0de38f;
+
+    &.cal-today {
+      background-color: #0daf6e;
+    }
+  }
+ }

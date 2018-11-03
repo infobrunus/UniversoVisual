@@ -1,0 +1,75 @@
+<div class="home">
+
+	<div id="inicial" class="textos flex flex-c border-bottom">
+		<img src="assets/logo.png">
+		<img src="assets/header-titulo.png">
+		<span>Inspiração é sempre bem-vinda na hora de construir</span>
+		<span>planos e peças para comunicação com o mercado.</span>
+		<span>Aqui você encontra dicas, referências e ferramentas para a</span>
+		<span>criação de materiais ainda mais vendedores.</span>
+	</div>
+
+	<div id="mood" class="flex flex-c cards border-bottom border-right">
+		<span class="title">MOODBOARD</span>
+		<span class="content">Layouts para inspiração</span>
+		<button type="button" class="home-btn flex" routerLink="/moodboard">
+			<img src="assets/triangle-red.png">MOOD 2018
+		</button>
+	</div>
+
+	<div id="planos" class="flex flex-c cards border-bottom">
+		<span class="title">PLANOS<br>E PROJETOS</span>
+		<span class="content">Template com telas diversas,</span>
+		<span class="content">modelo horizontal</span>
+		<button type="button" class="home-btn flex" routerLink="/planos">
+			<img src="assets/triangle-green.png">TEMPLATES
+		</button>
+	</div>
+
+	<div id="emails" class="flex flex-c cards border-bottom border-right">
+		<span class="title">E-MAILS</span>
+		<span class="content">Templates para informativos,</span>
+		<span class="content">audiência, e-mail mkt, etc.</span>
+		<button type="button" class="home-btn flex" routerLink="/emails">
+			<img src="assets/triangle-green.png">OUTLOOK
+		</button>
+	</div>
+
+	<div id="mural" class="flex flex-c cards border-bottom">
+		<span class="title">MURAL</span>
+		<app-mural-carousel></app-mural-carousel>
+	</div>
+
+	<div id="dicas" class="flex flex-c cards border-bottom border-right">
+		<span class="title">DICAS</span>
+		<span class="content">Design, orientações</span>
+		<span class="content">técnicas, etc.</span>
+		<button type="button" class="home-btn flex" routerLink="/dicas">
+			<img src="assets/triangle-red.png">CONFIRA
+		</button>
+	</div>
+
+	<div id="elementos" class="flex flex-c cards border-bottom">
+		<span class="title">ELEMENTOS</span>
+		<div class="elements flex">
+			<div class="flex flex-c elements-border" (click)="elementos('icones')">
+				<div class="elements-img"><img src="assets/icon-icones.png"></div>
+				<span>ÍCONES</span>
+			</div>
+			<div class="flex flex-c elements-border" (click)="elementos('objetos')">
+				<div class="elements-img"><img src="assets/icon-objetos.png"></div>
+				<span>OBJETOS</span>
+			</div>
+			<div class="flex flex-c elements-border" (click)="elementos('cores')">
+				<div class="elements-img"><img src="assets/icon-cores.png"></div>
+				<span>CORES</span>
+			</div>
+			<div class="flex flex-c elements-border" (click)="elementos('fontes')">
+				<div class="elements-img"><img src="assets/icon-fontes.png"></div>
+				<span>FONTES</span>
+			</div>
+		</div>
+	</div>
+
+</div>
+

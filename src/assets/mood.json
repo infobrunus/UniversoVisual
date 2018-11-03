@@ -1,0 +1,11 @@
+{
+	"moods": [
+		{
+			"id": 1,
+			"nome": "MOOD 2018",
+			"key": "mood",
+			"linkMood": "assets/moodboard/MOOD2018.pdf",
+			"linkDownload": "assets/moodboard/MOOD2018.pptx"
+		}
+	]
+}

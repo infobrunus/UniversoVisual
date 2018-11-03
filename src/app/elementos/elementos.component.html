@@ -1,0 +1,16 @@
+<div class="left-panel flex flex-c fade-in">
+	<div class="panel-title">ELEMENTOS</div>
+	<div class="panel-info">
+		<span>Recursos para</span>
+		<span>Complementar os materiais</span>
+	</div>
+	<div class="panel-list" >
+		<div class="panel-margin" [appSlimScroll]="slimScrollOptions">
+			<div [ngClass]="{'active': selectedItem.nome == item.nome}" *ngFor="let item of items" (click)="getItem(item)">{{item.nome}} </div>
+		</div>
+	</div>
+</div>
+
+<div class="right-panel flex flex-c fade-in">
+	<app-interna-elementos [selectedItem]=selectedItem></app-interna-elementos>
+</div>

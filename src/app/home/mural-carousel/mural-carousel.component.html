@@ -1,0 +1,16 @@
+<ngb-carousel>
+  <ng-template ngbSlide *ngFor="let mural of mural">
+    <div class="carousel-caption">
+    </div>
+    <div class="carousel-content">
+      <h3 class="mural-titulo">{{mural.titulo}}</h3>
+      <p class="mural-descricao">{{mural.descricao}}</p>
+      <div class="btn-area" (click)="leiaMaisClick(mural)">
+      	<button class="home-btn flex"><img src="assets/plus.png"></button>
+      	<span>VEJA MAIS</span>
+      </div>
+    </div>
+  </ng-template>
+</ngb-carousel>
+
+

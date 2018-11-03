@@ -1,0 +1,31 @@
+<div class="left-panel flex flex-c fade-in">
+	<div class="panel-title">MURAL</div>
+	<div>
+		<select class="styled-select" name="selectMonth" (change)="getMes($event.target.value)" [(ngModel)]="currentMonth">
+			<option *ngFor="let mes of meses" [value]="mes.id">{{mes.nome}}</option>
+		</select>
+		<select class="styled-select" name="selectYear" (change)="getAno($event.target.value)" [(ngModel)]="currentYear"> 
+			<option *ngFor="let ano of anos">{{ano.nome}}</option>
+		</select>
+	</div>
+	<div [ngSwitch]="view">
+		<mwl-calendar-month-view (beforeViewRender)="viewRender($event)" [locale]="locale" [(viewDate)]="viewDate" [refresh]="refresh" (dayClicked)="dayClicked($event.day)">
+		</mwl-calendar-month-view>
+
+	</div>
+</div>
+
+<div class="right-panel flex flex-c fade-in" *ngIf="muralDate">
+	<div class="mural-content">
+		<div class="mural-titulo">{{muralDate.titulo}}</div>
+		<div class="mural-texto">
+			<p>{{muralDate.texto}}</p>
+		</div>
+		<div *ngIf="muralDate.redirect">
+			<button class="slider-btn flex" routerLink="/dicas">Abrir Dica</button>
+		</div>
+	</div>
+</div>
+<div class="right-panel flex flex-c mural-titulo" *ngIf="!muralDate">
+	<p>Nenhuma dica para hoje.</p>
+</div>

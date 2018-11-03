@@ -1,0 +1,13 @@
+<div class="left-panel flex flex-c fade-in">
+	<div class="panel-title">PLANOS<br>E PROJETOS</div>
+	<div class="panel-info">+ de 100 modelos de slide</div>
+	<div class="panel-list">
+		<div class="panel-margin" [appSlimScroll]="slimScrollOptions">
+			<div [ngClass]="{'selected': selectedThumb == thumb}" *ngFor="let thumb of thumbs" (click)="getThumb(thumb)">{{thumb.nome}} </div>
+		</div>
+	</div>
+</div>
+
+<div class="right-panel flex flex-c fade-in">
+	<app-interna-thumbs [selectedThumb]=selectedThumb></app-interna-thumbs>
+</div>

@@ -1,0 +1,319 @@
+/* GLOBAL */ 
+
+
+.cards {
+	height: 350px;
+	padding: 2%;
+}
+
+.border-bottom {
+	border-bottom: solid #000 9px;
+}
+
+.border-right {
+	border-right: solid #000 9px;
+}
+
+.title {
+	font-size: 2.688em;
+	font-family: Globotipo Condensada Black;
+}
+
+.content {
+	margin-bottom: 0.4%;
+	padding: 0 8px;
+	font-family: Globotipo Texto;
+	font-style: italic;
+}
+
+.home {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.home-btn {
+	font-size: 0.688em;
+	background-color: transparent;
+	border: solid #fff;
+	color: #fff;
+	letter-spacing: 11px;
+	padding: 1%;
+	align-items: center;
+	cursor: pointer;
+	width: auto;
+	font-family: Globotipo Texto;
+	font-weight: bold;
+}
+
+.home-btn:focus {outline:0;}
+
+.home-btn img {
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.home-btn:hover {
+	background-color: rgba(0,0,0,0.5);
+}
+
+#dicas .home-btn, #emails .home-btn {
+	margin-top: 6%;
+}
+
+#planos .home-btn {
+	margin-top: 2%;
+	color: #3a3a3a;
+}
+
+#mood .home-btn {
+	margin-top: 8%;
+}
+
+
+/* Inicial */
+
+#inicial {
+	background-image: url("../../assets/header-bg.png"); 
+	background-size: cover;
+	align-items: center;
+	text-align: center;
+	width: 100%;
+	height: 100vh;
+}
+
+#inicial img:first-child {
+	margin-left: 80%;
+	margin-top: 5%;
+	width: 8%;
+}
+
+#inicial img:nth-child(2) {
+	width: 50%;
+	margin-bottom: 4%;
+}
+
+#inicial span {
+	padding: 0 25px;
+	font-size: 1.300em;
+	color: #363430;
+	background-color: #11d788;
+	margin-bottom: 0.4%;
+	font-family: Globotipo Texto;
+	font-style: italic;
+	font-weight: bolder;
+}
+
+#inicial .content {
+	font-size: 1em;
+	padding: 0 10px;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+#universo {
+	font-size: 8em;
+	font-weight: bold;
+}
+
+#visual {
+	font-size: 3em;
+	letter-spacing: 1.6em;
+}
+
+.textos p {
+	font-size: 1.7em;
+	margin-top: 5%;
+}
+
+
+/* Mood e Planos */
+
+#mood {
+	width: 40%;
+	background-image: url("../../assets/mood-bg.png");
+	background-size: cover;
+}
+
+#mood .title {
+	margin-top: 12%;
+}
+
+#mood .content {
+	background-color: #ff8c17;
+}
+
+#planos {
+	width: 60%;
+	background-image: url("../../assets/planos-bg.png");
+	background-size: cover;
+}
+
+#mood, #planos {
+	align-items: flex-end;
+}
+
+/* Emails e Mural */
+
+#emails {
+	background-image: url("../../assets/emails-bg.png");
+	background-size: cover;
+}
+
+#emails .content {
+	background-color: #05bffa;
+}
+
+#mural {
+	background-image: url("../../assets/mural-bg.png");
+	background-size: cover;
+}
+
+
+/* Dicas e Elementos */ 
+
+#dicas {
+	background-image: url("../../assets/dicas-bg.png");
+	background-size: cover;
+}
+
+#elementos {
+	background-image: url("../../assets/elementos-bg.png");
+	background-size: cover;
+}
+
+#elementos .title{
+	text-align: right;
+}
+
+.elements {
+	justify-content: flex-end;
+}
+
+.elements-border {
+	border: solid #e7bd3c;
+	padding: 4%;
+	color: #fff;
+	margin-top: 5%;
+	width: 22%;
+	height: 176px;
+	text-align: center;
+	font-family: Globotipo Texto;
+	font-weight: bold;
+}
+
+.elements-border:hover {
+	background-color: rgba(0,0,0,0.5);
+	cursor: pointer;
+}
+
+.elements-border:nth-child(3) {
+	margin-top: 4%;
+}
+
+.elements-border:not(:first-child) {
+	margin-left: 1%;
+}
+
+.elements-img{
+	height: 100%;
+	text-align: center;
+}
+
+.elements-border span {
+	margin-top: 25%;
+	border-top: solid #ed1263 2.4px;
+}
+
+
+
+/* Vários */
+
+
+#emails, #mural, #dicas, #elementos {
+	width: 50%;
+}
+
+#emails, #dicas {
+	align-items: flex-start;
+}
+
+#planos .content, #dicas .content {
+	background-color: #ed1263;
+}
+
+#mood .title, #elementos .title, #emails .title {
+	color: #fff;
+}
+
+#planos .title, #planos .title, #mural .title {
+	text-align: right;
+	color: #3a3a3a;
+}
+
+
+
+/* Media Queries */
+
+@media (max-width: 1025px) {
+
+	#inicial {
+		justify-content: unset;
+	}
+
+	#inicial img:first-child {
+		margin-left: 0;
+		margin-top: 30%;
+		margin-bottom: 30%;
+		width: auto;
+	}
+
+	#inicial img:nth-child(2) {
+		width: 85%;
+		margin-bottom: 15%;
+	}
+
+	#inicial span {
+		font-size: 0.8em;
+		margin-bottom: 2%;
+	}
+
+	.home div {
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+	}
+}
+
+@media (max-width: 600px) {
+	.home {
+		flex-wrap: column;
+	}
+
+	.home div {
+		width: 100% !important;	
+	}
+
+	#inicial span {
+		background-color: transparent;
+		color: #11d788;
+		padding: 0 10px;
+		margin-bottom: 0;
+	}
+
+	.border-right {
+		border-right: none;
+		border-bottom: solid #000 9px;
+	}
+}
+
+@media (max-width: 450px) {
+	#inicial span {
+		font-size: 0.9em;
+	}
+}
+
+@media (max-width: 330px) {
+	#inicial span {
+		font-size: 1.6em;
+	}
+}

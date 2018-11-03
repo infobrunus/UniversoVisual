@@ -1,0 +1,15 @@
+<div class="left-panel flex flex-c fade-in">
+	<div class="panel-title">E-MAILS</div>
+	<div class="panel-info">Templates de e-mail outlook</div>
+	<div class="panel-list">
+		<div class="panel-margin" [appSlimScroll]="slimScrollOptions">
+			<div [ngClass]="{'selected': selectedEmail.nome == email.nome}" *ngFor="let email of emails" (click)="getEmail(email)">{{email.nome}} </div>
+		</div>
+	</div>
+</div>
+
+<div class="right-panel flex flex-c fade-in">
+	<app-interna-email [selectedEmail]=selectedEmail></app-interna-email>
+</div>
+
+

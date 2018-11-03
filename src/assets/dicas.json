@@ -1,0 +1,28 @@
+{
+	"dicas": [
+		{
+			"id": 1,
+			"nome": "PALETAS CROMÁTICAS",
+			"linkDica": "assets/dicas/paletas-cromaticas.pdf",
+			"linkDownload": "assets/dicas/paletas-cromaticas.pptx"
+		},
+		{
+			"id": 2,
+			"nome": "COMBINAR CORES",
+			"linkDica": "assets/dicas/combinar-cores.pdf",
+			"linkDownload": "assets/dicas/combinar-cores.pptx"
+		},
+		{
+			"id": 3,
+			"nome": "GUIDELINE VÍDEOS",
+			"linkDica": "assets/dicas/guideline-videos.pdf",
+			"linkDownload": "assets/dicas/guideline-videos.pptx"
+		},
+		{
+			"id": 4,
+			"nome": "GUIDELINE",
+			"linkDica": "assets/dicas/guideline.pdf",
+			"linkDownload": "assets/dicas/guideline.pptx"
+		}
+	]
+}
